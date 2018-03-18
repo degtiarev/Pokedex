@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC505EA8205EEA23009EACC3 /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC505EA7205EEA23009EACC3 /* PokemonDetailVC.swift */; };
 		DCCB8B3F205DFEDA00C1549B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCB8B3E205DFEDA00C1549B /* AppDelegate.swift */; };
 		DCCB8B41205DFEDA00C1549B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCB8B40205DFEDA00C1549B /* ViewController.swift */; };
 		DCCB8B44205DFEDA00C1549B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCB8B42205DFEDA00C1549B /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC505EA7205EEA23009EACC3 /* PokemonDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
 		DCCB8B3B205DFEDA00C1549B /* pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCCB8B3E205DFEDA00C1549B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCCB8B40205DFEDA00C1549B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				DCCB8B40205DFEDA00C1549B /* ViewController.swift */,
+				DC505EA7205EEA23009EACC3 /* PokemonDetailVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				DCCEA203205E0D8B0057ABBF /* PokeCell.swift in Sources */,
 				DCCB8B41205DFEDA00C1549B /* ViewController.swift in Sources */,
 				DCCB8B3F205DFEDA00C1549B /* AppDelegate.swift in Sources */,
+				DC505EA8205EEA23009EACC3 /* PokemonDetailVC.swift in Sources */,
 				DCCB8B54205E034100C1549B /* Pokemon.swift in Sources */,
 				DCCEA205205E18070057ABBF /* csv.swift in Sources */,
 			);
