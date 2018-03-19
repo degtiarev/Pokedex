@@ -171,7 +171,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             inSearchMode = true
             let lower = searchBar.text!.lowercased()
             
-            filteredPokemons = pokemons.filter({$0.Name.range(of: lower) != nil})
+            filteredPokemons = pokemons.filter({$0.name.range(of: lower) != nil})
             
         }
         
